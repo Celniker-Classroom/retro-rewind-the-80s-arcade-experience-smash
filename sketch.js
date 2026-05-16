@@ -23,3 +23,16 @@ q5.update = function () {
 
 	if (mouse.presses()) ball.vel.y = -5;
 };
+
+
+let playersheet = await loadImage("notkirby.png");
+	
+let player = new Sprite();
+
+	player.addAni({
+		sheet: playersheet,
+		frames: 4,
+		frameSize: [32,32]
+
+	});
+player.scale = 3;
