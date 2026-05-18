@@ -35,6 +35,7 @@ let bg = await loadImage('mainbg.jpg'); // fighting background
 let playersheet = await loadImage("notkirby.png"); //sprite fighter
 let bulletimage =  await loadImage("bullet.png"); //bullet
 
+//player sprite
 let player = new Sprite();
 player.x=0;
 player.y=0;
